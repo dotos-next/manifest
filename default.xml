@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
-  <remote  name="dot"
-           fetch="https://github.com/dotos-next"
-	         review="http://review.droidontime.com/"
-           revision="refs/heads/dot10" />
-
-  <!-- <remote  name="dotOS-devices"
-           fetch="https://github.com/dotOS-Devices" 
-           revision="refs/heads/dot-p" /> -->
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -800,6 +787,7 @@
 
   <!-- Our Custom repositories -->
   <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/dot.xml" />
 
 </manifest>
